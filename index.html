@@ -5,53 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Checklist</title>
-    <link rel="stylesheet" href="styles.css">
 
     <!-- PWA Meta Tags -->
-    <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#667eea">
-    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#4facfe">
+    <link rel="apple-touch-icon" href="/icon-192x192.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
 </head>
 
 <body>
-    <div class="container">
-        <h1>📋 Task Checklist</h1>
-
-        <div class="tabs">
-            <button class="tab-btn active" data-tab="active">Active Tasks</button>
-            <button class="tab-btn" data-tab="history">Task History</button>
-        </div>
-
-        <div id="activeTab" class="tab-content active">
-            <div class="add-task-section">
-                <div class="input-group">
-                    <input type="text" id="taskInput" placeholder="Enter task name...">
-                    <input type="datetime-local" id="dueDateInput">
-                    <button id="addTaskBtn">Add Task</button>
-                </div>
-            </div>
-
-            <div id="taskList"></div>
-            <div id="emptyState" class="empty-state">
-                No tasks yet. Add one to get started!
-            </div>
-        </div>
-
-        <div id="historyTab" class="tab-content">
-            <div id="historyList"></div>
-            <div id="historyEmptyState" class="empty-state">
-                No completed tasks yet.
-            </div>
-        </div>
-    </div>
-
-    <div id="loadingIndicator" class="loading-overlay" style="display: none;">
-        <div class="loading-spinner">Loading...</div>
-    </div>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
