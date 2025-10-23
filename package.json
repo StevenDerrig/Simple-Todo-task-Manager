@@ -1,0 +1,32 @@
+{
+  "name": "simple-todo-task-manager",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cap:init": "npx cap init",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android",
+    "android": "npm run build && npx cap sync && npx cap open android"
+  },
+  "keywords": ["pwa", "task-manager", "react", "android"],
+  "author": "",
+  "license": "ISC",
+  "description": "React-based task manager PWA for Android with persistent notifications and SQLite storage",
+  "dependencies": {
+    "@capacitor/core": "^7.4.4",
+    "@capacitor/local-notifications": "^7.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.12"
+  }
+}

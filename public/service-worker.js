@@ -1,10 +1,10 @@
-const CACHE_NAME = 'task-checklist-v1';
+const CACHE_NAME = 'task-checklist-v2';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/styles.css',
-    '/script.js',
-    '/manifest.json'
+    '/manifest.json',
+    '/icon-192x192.png',
+    '/icon-512x512.png'
 ];
 
 // Install service worker and cache files

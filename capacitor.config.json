@@ -1,0 +1,14 @@
+{
+  "appId": "com.taskchecklist.app",
+  "appName": "Task Checklist",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_task",
+      "iconColor": "#4facfe"
+    }
+  }
+}
