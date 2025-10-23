@@ -6,9 +6,9 @@ let SQL = null;
 // Initialize the database
 export const initDatabase = async () => {
   try {
-    // Initialize SQL.js
+    // Initialize SQL.js with local WASM file
     SQL = await initSqlJs({
-      locateFile: file => `https://sql.js.org/dist/${file}`
+      locateFile: file => `/${file}`
     });
 
     // Try to load existing database from localStorage
