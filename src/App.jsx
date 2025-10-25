@@ -241,7 +241,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>📋 Task Checklist</h1>
+      <h1>📋 Task Checklist v2</h1>
 
       <div className="tabs">
         <button
