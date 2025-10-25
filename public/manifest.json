@@ -1,7 +1,7 @@
 {
-    "name": "Task Checklist App",
-    "short_name": "Tasks",
-    "description": "Simple task manager with subtasks and progress tracking",
+    "name": "Task Checklist App v2",
+    "short_name": "Tasks v2",
+    "description": "Version 2 - Enhanced task manager with improved design and clearer layout",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#4facfe",

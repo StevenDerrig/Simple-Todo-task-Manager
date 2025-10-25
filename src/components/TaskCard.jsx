@@ -173,6 +173,7 @@ function TaskCard({
       {showSubtasks && (
         <div className="collapsible-section">
           <div className="subtasks">
+            <h3 className="subtasks-header">✅ Subtasks</h3>
             <div className="subtask-input">
               <input
                 type="text"
